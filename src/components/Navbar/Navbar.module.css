@@ -1,9 +1,13 @@
 .navbarContainer {
   width: 100%;
+}
+
+.container {
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding-top: 18px;
+  width: 100%;
 }
 
 .logo {
@@ -22,7 +26,7 @@
 }
 
 .button {
-  background-color: #f9dc5c;
+  background-color: #e84855;
   border: none;
   border-radius: 8px;
   width: 90px;
@@ -32,7 +36,69 @@
   margin: 0px 16px;
 }
 
+.burger {
+  display: none;
+  font-size: 32px;
+  color: #363636;
+}
+
 .button:hover {
   cursor: pointer;
-  background-color: #ecd056;
+  background-color: #d4414e;
+}
+.mobileLinksContainer {
+  display: none;
+  padding-top: 8px;
+}
+
+.mobileLink {
+  margin: 8px 0px;
+  text-decoration: none;
+  color: #4c555bc9;
+}
+
+.mobileLink:hover {
+  color: #2d3236;
+}
+
+.mobileButton {
+  background-color: #e84855;
+  border: none;
+  border-radius: 8px;
+  width: 90px;
+  height: 42px;
+  color: white;
+  font-size: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.horizontal {
+  width: 100%;
+  margin-top: 8px;
+  color: #404040;
+}
+
+@media screen and (max-width: 900px) {
+  .linksContainer {
+    display: none;
+  }
+  .container {
+    justify-content: space-between;
+    width: 94%;
+    margin: 0 auto;
+  }
+  .burger {
+    display: block;
+  }
+  .burger:hover {
+    cursor: pointer;
+  }
+  .mobileLinksContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 94%;
+    margin: 0 auto;
+  }
 }

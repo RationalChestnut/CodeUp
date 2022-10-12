@@ -9,10 +9,12 @@ function App() {
   return (
     <div className="main-content">
       <Navbar />
-      <Home />
-      <About />
-      <Events />
-      <Footer />
+      <div className="page-padding">
+        <Home />
+        <About />
+        <Events />
+        <Footer />
+      </div>
     </div>
   );
 }
