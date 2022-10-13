@@ -1,2 +1,64 @@
 .eventsPageContainer {
+  margin-top: 10%;
+}
+
+.eventContainer {
+  border: 1px solid #dfdfdf;
+  border-radius: 15px;
+  padding: 22px;
+  display: flex;
+}
+
+.eventTitle {
+  color: #e84855;
+}
+
+.description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 34px;
+}
+
+.titleInfo {
+  font-weight: bold;
+}
+
+.button {
+  border-radius: 10px;
+  padding: 16px 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e84855;
+  border: none;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #d4414e;
+}
+
+.signupLink {
+  text-decoration: none;
+  color: white;
+}
+
+.left {
+  width: 50%;
+  margin-right: 8px;
+}
+
+.imageContainer {
+  width: 50%;
+  display: flex;
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eventImage {
+  max-width: 100%;
+  border-radius: 15px;
 }

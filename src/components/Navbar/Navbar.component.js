@@ -19,28 +19,16 @@ const Navbar = () => {
           onClick={() => setShowItems(!showItems)}
         />
         <div className={styles.linksContainer}>
-          <a href="#" className={styles.link}>
-            About
-          </a>
-          <a href="#" className={styles.link}>
+          <a href="#events" className={styles.link}>
             Events
-          </a>
-          <a href="#" className={styles.link}>
-            Contact
           </a>
           <button className={styles.button}>Donate</button>
         </div>
       </div>
       {showItems && (
         <div className={styles.mobileLinksContainer}>
-          <a href="#" className={styles.mobileLink}>
-            About
-          </a>
-          <a href="#" className={styles.mobileLink}>
+          <a href="#events" className={styles.mobileLink}>
             Events
-          </a>
-          <a href="#" className={styles.mobileLink}>
-            Contact
           </a>
           <button className={styles.mobileButton}>Donate</button>
           <hr className={styles.horizontal} />
