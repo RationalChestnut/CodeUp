@@ -11,8 +11,8 @@ function App() {
       <div className="page-padding">
         <Home />
         <Events />
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }

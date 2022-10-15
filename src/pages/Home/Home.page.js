@@ -17,7 +17,7 @@ export const Home = () => {
             backgrounds to code.
           </div>
           <div className={styles.bannerButtonGroup}>
-            <a href="#" className={styles.eventsButton}>
+            <a href="#events" className={styles.eventsButton}>
               See Events
             </a>
             <a href="#" className={styles.donateButton}>

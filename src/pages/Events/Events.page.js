@@ -29,16 +29,15 @@ export const Events = () => {
             <span className={styles.titleInfo}>Cost:</span> {""}
             Nothing!
           </p>
-          <button className={styles.button}>
-            <a
-              href="https://forms.gle/vb6Ud5dUJ5Nj1u4d8"
-              className={styles.signupLink}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Sign Up
-            </a>
-          </button>
+
+          <a
+            href="https://forms.gle/vb6Ud5dUJ5Nj1u4d8"
+            className={styles.signupLink}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className={styles.button}>Sign Up </button>
+          </a>
         </div>
         <div className={styles.imageContainer}>
           <img src={event} alt="Girls Coding" className={styles.eventImage} />

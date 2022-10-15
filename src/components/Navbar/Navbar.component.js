@@ -27,10 +27,19 @@ const Navbar = () => {
       </div>
       {showItems && (
         <div className={styles.mobileLinksContainer}>
-          <a href="#events" className={styles.mobileLink}>
+          <a
+            href="#events"
+            className={styles.mobileLink}
+            onClick={() => setShowItems(false)}
+          >
             Events
           </a>
-          <button className={styles.mobileButton}>Donate</button>
+          <button
+            className={styles.mobileButton}
+            onClick={() => setShowItems(false)}
+          >
+            Donate
+          </button>
           <hr className={styles.horizontal} />
         </div>
       )}

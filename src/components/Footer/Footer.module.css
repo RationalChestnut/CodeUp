@@ -1,0 +1,35 @@
+.footerContainer {
+  width: 100%;
+  background-color: #e84855;
+  margin-top: 2%;
+  padding: 25px 0px;
+}
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+  font-weight: 200;
+  padding: 6px 0px;
+}
+
+.heading {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 12px;
+  color: white;
+}
