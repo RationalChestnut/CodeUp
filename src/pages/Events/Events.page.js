@@ -19,7 +19,7 @@ export const Events = () => {
           </p>
           <p className={styles.info}>
             <span className={styles.titleInfo}>When:</span> {""}
-            Saturday, October 29th from 1-5pm
+            Saturday, November 5th from 1-5pm
           </p>
           <p className={styles.info}>
             <span className={styles.titleInfo}>Where:</span> {""}

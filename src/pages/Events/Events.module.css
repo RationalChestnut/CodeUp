@@ -38,6 +38,7 @@
 
 .button:hover {
   background-color: #d4414e;
+  cursor: pointer;
 }
 
 .signupLink {
