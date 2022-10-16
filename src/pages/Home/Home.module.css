@@ -63,3 +63,27 @@
 .bannerImage {
   max-width: 100%;
 }
+
+@media screen and (max-width: 800px) {
+  .banner {
+    flex-direction: column;
+  }
+
+  .bannerTextContainer {
+    width: 100%;
+  }
+
+  .bannerDescription {
+    width: 80%;
+  }
+  .bannerImageContainer {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 32px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .bannerDescription {
+    width: 90%;
+  }
+}

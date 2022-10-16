@@ -27,7 +27,7 @@ export const Footer = () => {
         </div>
       </div>
 
-      <p className={styles.copyright}>Copyright CodeUp 2022</p>
+      <p className={styles.copyright}>Copyright @CodeUp 2022</p>
     </div>
   );
 };

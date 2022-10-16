@@ -26,7 +26,7 @@ export const Home = () => {
           </div>
         </div>
         <div className={styles.bannerImageContainer}>
-          <img className={styles.bannerImage} src={hook} alt="HTML_CSS_CODE" />
+          <img className={styles.bannerImage} src={hook} alt="People coding" />
         </div>
       </div>
     </div>
