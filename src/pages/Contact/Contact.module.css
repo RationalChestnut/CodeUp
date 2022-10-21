@@ -1,0 +1,19 @@
+.formSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  width: 200px;
+  border: none;
+  border-bottom: 1.5px solid #b3b3b3;
+  outline: none;
+}
+
+.label {
+  color: #b3b3b3;
+}
+
+.input:focus {
+  border-bottom: 1.5px solid #e84855;
+}

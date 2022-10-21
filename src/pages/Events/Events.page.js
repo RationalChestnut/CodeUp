@@ -12,14 +12,14 @@ export const Events = () => {
             Introduction to Python using Turtle
           </h1>
           <p className={styles.description}>
-            In this 4 hour bootcamp, middle schoolers will learn the basics of
+            In this 3 hour bootcamp, middle schoolers will learn the basics of
             Python with an interactive Python module called Turtle! There will
             be other activities throughout the event as we know sitting down for
-            four hours can be nearly impossible!
+            three hours can be nearly impossible!
           </p>
           <p className={styles.info}>
             <span className={styles.titleInfo}>When:</span> {""}
-            Saturday, November 5th from 1-5pm
+            Sunday, November 6th from 1-4pm
           </p>
           <p className={styles.info}>
             <span className={styles.titleInfo}>Where:</span> {""}
