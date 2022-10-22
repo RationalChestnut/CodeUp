@@ -5,7 +5,7 @@ import event from "../../assets/event.jpeg";
 export const Events = () => {
   return (
     <div className={styles.eventsPageContainer} id="events">
-      <h1>Upcoming Events</h1>
+      <h1 className={styles.eventsPageTitle}>Upcoming Events</h1>
       <div className={styles.eventContainer}>
         <div className={styles.left}>
           <h1 className={styles.eventTitle}>
