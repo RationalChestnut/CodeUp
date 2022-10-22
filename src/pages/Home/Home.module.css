@@ -1,3 +1,7 @@
+.container {
+  padding: 3% 18%;
+}
+
 .banner {
   display: flex;
   align-items: center;
@@ -10,6 +14,7 @@
 .bannerTitle {
   font-size: 40px;
   font-weight: 600;
+  color: #060747;
 }
 
 .bannerDescription {
@@ -38,21 +43,21 @@
 
 .eventsButton {
   color: white;
-  background-color: #e84855;
+  background-color: #9d7ef2;
 }
 
 .eventsButton:hover {
-  background-color: #d4414e;
+  background-color: #8164d1;
 }
 
 .donateButton {
-  border: 2px solid #e84855;
-  color: #e84855;
+  border: 2px solid #9d7ef2;
+  color: #9d7ef2;
 }
 
 .donateButton:hover {
-  color: #d4414e;
-  border-color: #d4414e;
+  color: #8164d1;
+  border-color: #8164d1;
 }
 
 .bannerImageContainer {
@@ -72,6 +77,11 @@
 
   .bannerTextContainer {
     width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .bannerDescription {
@@ -86,5 +96,51 @@
 @media screen and (max-width: 650px) {
   .bannerDescription {
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 1410px) {
+  .container {
+    padding: 5% 10%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .container {
+    padding: 5% 5%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    padding: 5% 5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 5% 4%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    padding: 10% 4%;
+  }
+
+  .bannerTitle {
+    font-size: 30px;
+  }
+
+  .bannerDescription {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .bannerImageContainer {
+    display: none;
+  }
+
+  .bannerButtonGroup > a {
   }
 }

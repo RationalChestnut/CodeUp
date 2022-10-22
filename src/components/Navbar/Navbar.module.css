@@ -16,7 +16,7 @@
 
 .link {
   text-decoration: none;
-  color: #4c555bc9;
+  color: #7f7f95;
   font-size: 16px;
   margin: 0px 16px;
 }
@@ -26,7 +26,7 @@
 }
 
 .button {
-  background-color: #e84855;
+  background-color: #9d7ef2;
   border: none;
   border-radius: 8px;
   width: 90px;
@@ -44,7 +44,7 @@
 
 .button:hover {
   cursor: pointer;
-  background-color: #d4414e;
+  background-color: #8164d1;
 }
 .mobileLinksContainer {
   display: none;
@@ -54,7 +54,7 @@
 .mobileLink {
   margin: 8px 0px;
   text-decoration: none;
-  color: #4c555bc9;
+  color: #7f7f95;
 }
 
 .mobileLink:hover {
@@ -62,7 +62,7 @@
 }
 
 .mobileButton {
-  background-color: #e84855;
+  background-color: #9d7ef2;
   border: none;
   border-radius: 8px;
   width: 90px;
@@ -71,6 +71,10 @@
   font-size: 16px;
   margin-top: 8px;
   margin-bottom: 8px;
+}
+.mobileButton:hover {
+  background-color: #8164d1;
+  cursor: pointer;
 }
 
 .horizontal {

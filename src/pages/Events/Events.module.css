@@ -1,5 +1,12 @@
 .eventsPageContainer {
   margin-top: 100px;
+  background-color: #ede8fa;
+  position: relative;
+  padding-top: 125px;
+  padding-bottom: 150px;
+  margin-bottom: 100px;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 .eventContainer {
@@ -12,10 +19,11 @@
 
 .eventsPageTitle {
   font-size: 36px;
+  color: #060747;
 }
 
 .eventTitle {
-  color: #e84855;
+  color: #3e1f92;
 }
 
 .description {
@@ -35,14 +43,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #e84855;
+  background-color: #9d7ef2;
   border: none;
   font-size: 16px;
   color: white;
+  margin-top: 12px;
 }
 
 .button:hover {
-  background-color: #d4414e;
+  background-color: #8164d1;
   cursor: pointer;
 }
 
@@ -81,5 +90,93 @@
   }
   .imageContainer {
     width: 100%;
+  }
+}
+
+.customShapeDividerTop1666447409 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.customShapeDividerTop1666447409 svg {
+  position: relative;
+  display: block;
+  width: calc(127% + 1.3px);
+  height: 100px;
+}
+
+.customShapeDividerTop1666447409 .shapeFill {
+  fill: #f9f9fb;
+}
+
+.customShapeDividerBottom1666447991 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.customShapeDividerBottom1666447991 svg {
+  position: relative;
+  display: block;
+  width: calc(128% + 1.3px);
+  height: 100px;
+}
+
+.customShapeDividerBottom1666447991 .shapeFill {
+  fill: #f9f9fb;
+}
+
+@media screen and (max-width: 1200px) {
+  .customShapeDividerBottom1666447991 svg,
+  .customShapeDividerTop1666447409 svg {
+    height: 75px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .customShapeDividerBottom1666447991 svg,
+  .customShapeDividerTop1666447409 svg {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 1410px) {
+  .eventsPageContainer {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .eventsPageContainer {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .eventsPageContainer {
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .eventsPageContainer {
+    padding-top: 100px;
+    padding-bottom: 125px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .description {
+    line-height: 28px;
   }
 }

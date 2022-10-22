@@ -1,5 +1,6 @@
 .contactPageContainer {
   margin-top: 100px;
+  padding: 3% 18%;
 }
 
 .contactFormContainer {
@@ -115,5 +116,36 @@
   .textInput {
     width: 100%;
     box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 1410px) {
+  .contactPageContainer {
+    padding: 5% 10%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .contactPageContainer {
+    padding: 5% 5%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contactPageContainer {
+    padding: 5% 5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contactPageContainer {
+    padding: 5% 4%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contactPageContainer {
+    padding: 10% 4%;
+    margin-top: 25px;
   }
 }

@@ -9,11 +9,9 @@ function App() {
   return (
     <div className="main-content">
       <Navbar />
-      <div className="page-padding">
-        <Home />
-        <Events />
-        <Contact />
-      </div>
+      <Home />
+      <Events />
+      <Contact />
       <Footer />
     </div>
   );
