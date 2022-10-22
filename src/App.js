@@ -12,7 +12,7 @@ function App() {
       <div className="page-padding">
         <Home />
         <Events />
-        {/* <Contact /> */}
+        <Contact />
       </div>
       <Footer />
     </div>

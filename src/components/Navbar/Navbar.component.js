@@ -22,6 +22,9 @@ const Navbar = () => {
           <a href="#events" className={styles.link}>
             Events
           </a>
+          <a href="#contact" className={styles.link}>
+            Contact
+          </a>
           <button className={styles.button}>Donate</button>
         </div>
       </div>
@@ -33,6 +36,9 @@ const Navbar = () => {
             onClick={() => setShowItems(false)}
           >
             Events
+          </a>
+          <a href="#contact" className={styles.mobileLink}>
+            Contact
           </a>
           <button
             className={styles.mobileButton}

@@ -13,6 +13,9 @@ export const Footer = () => {
           <a href="#events" className={styles.links}>
             Events
           </a>
+          <a href="#contact" className={styles.links}>
+            Contact
+          </a>
         </div>
         <div className={styles.section}>
           <h2 className={styles.heading}>Contact</h2>

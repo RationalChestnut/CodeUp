@@ -67,6 +67,7 @@
 @media screen and (max-width: 800px) {
   .banner {
     flex-direction: column;
+    margin-top: 25px;
   }
 
   .bannerTextContainer {
@@ -77,7 +78,7 @@
     width: 80%;
   }
   .bannerImageContainer {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     margin-top: 32px;
   }
