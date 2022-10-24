@@ -25,7 +25,13 @@ const Navbar = () => {
           <a href="#contact" className={styles.link}>
             Contact
           </a>
-          <button className={styles.button}>Donate</button>
+          <a
+            href="https://secure.givelively.org/donate/hackplus/codeup"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className={styles.button}>Donate</button>
+          </a>
         </div>
       </div>
       {showItems && (
@@ -40,12 +46,18 @@ const Navbar = () => {
           <a href="#contact" className={styles.mobileLink}>
             Contact
           </a>
-          <button
-            className={styles.mobileButton}
-            onClick={() => setShowItems(false)}
+          <a
+            href="https://secure.givelively.org/donate/hackplus/codeup"
+            target="_blank"
+            rel="noreferrer"
           >
-            Donate
-          </button>
+            <button
+              className={styles.mobileButton}
+              onClick={() => setShowItems(false)}
+            >
+              Donate
+            </button>
+          </a>
           <hr className={styles.horizontal} />
         </div>
       )}

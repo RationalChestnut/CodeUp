@@ -20,7 +20,12 @@ export const Home = () => {
             <a href="#events" className={styles.eventsButton}>
               See Events
             </a>
-            <a href="#" className={styles.donateButton}>
+            <a
+              href="https://secure.givelively.org/donate/hackplus/codeup"
+              className={styles.donateButton}
+              target="_blank"
+              rel="noreferrer"
+            >
               Donate
             </a>
           </div>
