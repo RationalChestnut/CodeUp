@@ -1,182 +1,193 @@
 .eventsPageContainer {
-  margin-top: 100px;
-  background-color: #ede8fa;
-  position: relative;
-  padding-top: 125px;
-  padding-bottom: 150px;
-  margin-bottom: 100px;
-  padding-left: 8%;
-  padding-right: 8%;
+    margin-top: 100px;
+    background-color: #ede8fa;
+    position: relative;
+    padding-top: 125px;
+    padding-bottom: 150px;
+    margin-bottom: 100px;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .eventContainer {
-  border-radius: 15px;
-  padding: 22px;
-  display: flex;
-  background-color: white;
-  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    padding: 22px;
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.05);
 }
 
 .eventsPageTitle {
-  font-size: 36px;
-  color: #060747;
+    font-size: 36px;
+    color: #060747;
 }
 
 .eventTitle {
-  color: #3e1f92;
+    color: #3e1f92;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.left > p {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .description {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 34px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
 }
 
 .titleInfo {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .button {
-  border-radius: 10px;
-  padding: 16px 27px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #9d7ef2;
-  border: none;
-  font-size: 16px;
-  color: white;
-  margin-top: 12px;
+    border-radius: 10px;
+    padding: 16px 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9d7ef2;
+    border: none;
+    font-size: 16px;
+    color: white;
+    margin-top: 12px;
 }
 
 .button:hover {
-  background-color: #8164d1;
-  cursor: pointer;
+    background-color: #8164d1;
+    cursor: pointer;
 }
 
 .signupLink {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
+    width: fit-content;
 }
 
 .left {
-  width: 50%;
-  margin-right: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 8px;
 }
 
 .imageContainer {
-  width: 50%;
-  display: flex;
-  margin-left: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    width: 50%;
+    display: flex;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .eventImage {
-  max-width: 100%;
-  border-radius: 15px;
+    max-width: 100%;
+    border-radius: 15px;
 }
 
 @media screen and (max-width: 975px) {
-  .eventContainer {
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-  }
-  .left {
-    width: 100%;
-  }
-  .imageContainer {
-    width: 100%;
-  }
+    .eventContainer {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .left {
+        width: 100%;
+    }
+    .imageContainer {
+        width: 100%;
+        margin: 0;
+    }
 }
 
 .customShapeDividerTop1666447409 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
 }
 
 .customShapeDividerTop1666447409 svg {
-  position: relative;
-  display: block;
-  width: calc(127% + 1.3px);
-  height: 100px;
+    position: relative;
+    display: block;
+    width: calc(127% + 1.3px);
+    height: 100px;
 }
 
 .customShapeDividerTop1666447409 .shapeFill {
-  fill: #f9f9fb;
+    fill: #f9f9fb;
 }
 
 .customShapeDividerBottom1666447991 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
 }
 
 .customShapeDividerBottom1666447991 svg {
-  position: relative;
-  display: block;
-  width: calc(128% + 1.3px);
-  height: 100px;
+    position: relative;
+    display: block;
+    width: calc(128% + 1.3px);
+    height: 100px;
 }
 
 .customShapeDividerBottom1666447991 .shapeFill {
-  fill: #f9f9fb;
+    fill: #f9f9fb;
 }
 
 @media screen and (max-width: 1200px) {
-  .customShapeDividerBottom1666447991 svg,
-  .customShapeDividerTop1666447409 svg {
-    height: 75px;
-  }
+    .customShapeDividerBottom1666447991 svg,
+    .customShapeDividerTop1666447409 svg {
+        height: 75px;
+    }
 }
 @media screen and (max-width: 800px) {
-  .customShapeDividerBottom1666447991 svg,
-  .customShapeDividerTop1666447409 svg {
-    height: 50px;
-  }
+    .customShapeDividerBottom1666447991 svg,
+    .customShapeDividerTop1666447409 svg {
+        height: 50px;
+    }
 }
 
 @media screen and (max-width: 1410px) {
-  .eventsPageContainer {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
+    .eventsPageContainer {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 }
 @media screen and (max-width: 1100px) {
-  .eventsPageContainer {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
+    .eventsPageContainer {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 }
 
 @media screen and (max-width: 600px) {
-  .eventsPageContainer {
-    padding-left: 4%;
-    padding-right: 4%;
-    margin-top: 50px;
-    margin-bottom: 25px;
-  }
+    .eventsPageContainer {
+        padding-left: 4%;
+        padding-right: 4%;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
 }
 @media screen and (max-width: 500px) {
-  .eventsPageContainer {
-    padding-top: 100px;
-    padding-bottom: 125px;
-  }
+    .eventsPageContainer {
+        padding-top: 100px;
+        padding-bottom: 125px;
+    }
 }
 
 @media screen and (max-width: 400px) {
-  .description {
-    line-height: 28px;
-  }
+    .description {
+        line-height: 28px;
+    }
 }
