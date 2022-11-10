@@ -14,6 +14,23 @@
     color: #060747;
 }
 
+.prevArrow {
+    position: absolute;
+    z-index: 100;
+
+    top: 50%;
+    left: -5%;
+}
+
+.nextArrow {
+    position: absolute;
+    z-index: 1;
+
+    top: 50%;
+    right: -5%;
+}
+
+
 @media screen and (max-width: 975px) {
     .eventContainer {
         flex-direction: column-reverse;

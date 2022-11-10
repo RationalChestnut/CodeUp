@@ -1,4 +1,5 @@
 .eventContainer {
+    height: 100%;
     border-radius: 15px;
     padding: 22px;
     display: flex;
@@ -16,12 +17,14 @@
 .left > p {
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: left;
 }
 
 .eventTitle {
     color: #3e1f92;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: left;
 }
 
 .description {
@@ -107,7 +110,7 @@
         width: 100%;
     }
 
-    .imageContainer {
+    .carousel {
         width: 100%;
         margin: 0;
     }
