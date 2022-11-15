@@ -5,3 +5,15 @@ body {
     min-width: 100%;
     min-height: 100%;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+.carousel.carousel-slider {
+    overflow: visible !important;
+}
+
+.carousel .control-dots .dot {
+    background: black !important; 
+}

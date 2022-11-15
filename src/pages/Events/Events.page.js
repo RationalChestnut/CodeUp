@@ -1,8 +1,28 @@
 import React from "react";
+import { Carousel } from "react-responsive-carousel";
+import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
+
 import styles from "./Events.module.css";
-import event from "../../assets/event.jpeg";
+
+import events from "../../data/events";
+import { Event } from "../../components/Event/Event";
+import useWindowDimensions from "../../utils/useWindowDimensions";
 
 export const Events = () => {
+  const { width } = useWindowDimensions();
+
+  const renderEvents = events.sort((a, b) => {
+    if (a.startTime > b.startTime) {
+      return -1;
+    } else {
+      if (a.endTime > b.endTime) {
+        return -1;
+      } else {
+        return 1;
+      }
+    }
+  });
+
   return (
     <div className={styles.eventsPageContainer} id="events">
       <div className={styles.customShapeDividerTop1666447409}>
@@ -18,43 +38,54 @@ export const Events = () => {
           ></path>
         </svg>
       </div>
-      <h1 className={styles.eventsPageTitle}>Upcoming Events</h1>
-      <div className={styles.eventContainer}>
-        <div className={styles.left}>
-          <h1 className={styles.eventTitle}>
-            Introduction to Python using Turtle
-          </h1>
-          <p className={styles.description}>
-            In this 3 hour bootcamp, middle schoolers will learn the basics of
-            Python with an interactive Python module called Turtle! There will
-            be other activities throughout the event as we know sitting down for
-            three hours can be nearly impossible!
-          </p>
-          <p className={styles.info}>
-            <span className={styles.titleInfo}>When:</span> {""}
-            Sunday, November 6th from 1-4pm
-          </p>
-          <p className={styles.info}>
-            <span className={styles.titleInfo}>Where:</span> {""}
-            Pyle Middle School
-          </p>
-          <p className={styles.info}>
-            <span className={styles.titleInfo}>Cost:</span> {""}
-            Nothing!
-          </p>
-
-          <a
-            href="https://forms.gle/vb6Ud5dUJ5Nj1u4d8"
-            className={styles.signupLink}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button className={styles.button}>Sign Up </button>
-          </a>
-        </div>
-        <div className={styles.imageContainer}>
-          <img src={event} alt="Girls Coding" className={styles.eventImage} />
-        </div>
+      <h1 className={styles.eventsPageTitle}>Events</h1>
+      <div className={styles.eventsContainer}>
+        <Carousel
+          className={styles.carousel}
+          showThumbs={false}
+          showIndicators={width <= 1100}
+          showStatus={false}
+          emulateTouch
+          infiniteLoop
+          renderArrowPrev={(clickHandler) => {
+            return (
+              <FaArrowAltCircleLeft
+                onClick={clickHandler}
+                size={40}
+                className={styles.prevArrow}
+                display={width <= 1100 && "none"}
+                style={{ color: "#3E1F92" }}
+              />
+            );
+          }}
+          renderArrowNext={(clickHandler) => {
+            return (
+              <FaArrowAltCircleRight
+                onClick={clickHandler}
+                size={40}
+                className={styles.nextArrow}
+                display={width <= 1100 && "none"}
+                style={{ color: "#3E1F92" }}
+              />
+            );
+          }}
+        >
+          {renderEvents.map((event) => {
+            return (
+              <Event
+                key={event.id}
+                title={event.title}
+                description={event.description}
+                when={event.when}
+                where={event.where}
+                cost={event.cost}
+                signupLink={event.signupLink}
+                past={event.endTime < Date.now()}
+                images={event.images}
+              />
+            );
+          })}
+        </Carousel>
       </div>
       <div className={styles.customShapeDividerBottom1666447991}>
         <svg
