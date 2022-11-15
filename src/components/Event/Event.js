@@ -65,6 +65,8 @@ export const Event = ({
           infiniteLoop
           showThumbs={false}
           dynamicHeight={true}
+          interval={5000}
+          autoPlay
         >
           {images.map((img, index) => {
             return (

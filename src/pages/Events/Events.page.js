@@ -46,6 +46,7 @@ export const Events = () => {
           showIndicators={width <= 1100}
           showStatus={false}
           emulateTouch
+          infiniteLoop
           renderArrowPrev={(clickHandler) => {
             return (
               <FaArrowAltCircleLeft
@@ -53,6 +54,7 @@ export const Events = () => {
                 size={40}
                 className={styles.prevArrow}
                 display={width <= 1100 && "none"}
+                style={{ color: "#3E1F92" }}
               />
             );
           }}
@@ -63,6 +65,7 @@ export const Events = () => {
                 size={40}
                 className={styles.nextArrow}
                 display={width <= 1100 && "none"}
+                style={{ color: "#3E1F92" }}
               />
             );
           }}
