@@ -4,6 +4,7 @@ import { Footer } from "./components/Footer/Footer.component";
 import { Home } from "./pages/Home/Home.page";
 import { Events } from "./pages/Events/Events.page";
 import { Contact } from "./pages/Contact/Contact.page";
+import { Team } from "./pages/Team/Team.page";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Home />
       <Events />
+      <Team />
       <Contact />
       <Footer />
     </div>

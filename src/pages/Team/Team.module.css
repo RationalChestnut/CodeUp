@@ -1,0 +1,32 @@
+.teamPageContainer {
+  padding: 3% 10%;
+}
+
+.mainText {
+  font-weight: 400;
+}
+
+.teamContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1410px) {
+  .teamPageContainer {
+    padding: 5% 5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .teamPageContainer {
+    padding: 5% 4%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .teamPageContainer {
+    padding: 10% 4%;
+    margin-top: 25px;
+  }
+}
