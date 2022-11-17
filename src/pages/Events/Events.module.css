@@ -29,6 +29,10 @@
   right: -5%;
 }
 
+.nextArrow:hover, .prevArrow:hover {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 975px) {
   .eventContainer {
     flex-direction: column-reverse;

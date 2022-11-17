@@ -67,6 +67,7 @@ export const Event = ({
           dynamicHeight={true}
           interval={5000}
           autoPlay
+          emulateTouch={false}
         >
           {images.map((img, index) => {
             return (

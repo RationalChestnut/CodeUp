@@ -45,7 +45,7 @@ export const Events = () => {
           showThumbs={false}
           showIndicators={width <= 1100}
           showStatus={false}
-          emulateTouch
+          emulateTouch={width <= 1100}
           infiniteLoop
           renderArrowPrev={(clickHandler) => {
             return (
