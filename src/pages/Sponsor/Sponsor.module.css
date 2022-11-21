@@ -1,0 +1,32 @@
+.sponsorPage {
+  padding: 3% 10%;
+}
+
+.title {
+  font-weight: 400;
+}
+
+.sponsors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1410px) {
+  .sponsorPage {
+    padding: 5% 5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sponsorPage {
+    padding: 5% 4%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sponsorPage {
+    padding: 10% 4%;
+    margin-top: 25px;
+  }
+}

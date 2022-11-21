@@ -1,0 +1,10 @@
+.sponsorImage {
+  width: 350px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 400px) {
+  .sponsorImage {
+    width: 300px;
+  }
+}
