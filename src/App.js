@@ -6,6 +6,7 @@ import { Events } from "./pages/Events/Events.page";
 import { Contact } from "./pages/Contact/Contact.page";
 import { Team } from "./pages/Team/Team.page";
 import { Sponsor } from "./pages/Sponsor/Sponsor.page";
+import { Impact } from "./pages/Impact/Impact.page";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Home />
       <Events />
       <Team />
+      <Impact />
       <Sponsor />
       <Contact />
       <Footer />
