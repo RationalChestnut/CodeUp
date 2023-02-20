@@ -1,8 +1,6 @@
 import React from "react";
 import styles from "./Contact.module.css";
-import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
-import { IoMdPin } from "react-icons/io";
 
 export const Contact = () => {
   return (
@@ -20,16 +18,8 @@ export const Contact = () => {
             Fill out the form and our team will get back to you within 24 hours
           </p>
           <div className={styles.contactMethod}>
-            <BsFillTelephoneFill className={styles.icon} />
-            <p>919-951-9136</p>
-          </div>
-          <div className={styles.contactMethod}>
             <MdEmail className={styles.icon} />
             <p>brian@codeupnp.org</p>
-          </div>
-          <div className={styles.contactMethod}>
-            <IoMdPin className={styles.icon} />
-            <p>447 King Ave, Fremont, CA 94536</p>
           </div>
         </div>
         <div className={styles.formContainer}>

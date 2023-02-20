@@ -1,24 +1,24 @@
-import cate from "../assets/cate.jpg";
-import anthony from "../assets/anthony.jpg";
-import brian from "../assets/brian.jpg";
-import alex from "../assets/alex.jpg";
-import russell from "../assets/russell.jpg";
-import yixuan from "../assets/yixuan.jpeg";
+import cate from "../assets/team/cate.jpg";
+import anthony from "../assets/team/anthony.jpg";
+import brian from "../assets/team/brian.jpg";
+import alex from "../assets/team/alex.jpg";
+import russell from "../assets/team/russell.jpg";
+import yixuan from "../assets/team/yixuan.jpeg";
 
 export const listOfMembers = [
   {
     name: "Brian Mason",
-    role: "Founder",
+    role: "President",
     image: brian,
   },
   {
     name: "Yixuan Li",
-    role: "Founder",
+    role: "Vice-President",
     image: yixuan,
   },
   {
     name: "Anthony Noya",
-    role: "Marketing",
+    role: "Instructor",
     image: anthony,
   },
   {
