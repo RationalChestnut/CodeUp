@@ -16,7 +16,7 @@ const events = [
     title: "Learn Python using Turtle",
     description:
       "In this 3 hour bootcamp, middle schoolers will learn the basics of Python with an interactive Python module called Turtle! There will be other activities throughout the event as we know sitting down for three hours can be nearly impossible!",
-    when: "Saturday, March 4th from 1-4pm",
+    when: "Saturday, March 4th from 2-5pm",
     where: "Cabin John Middle School",
     cost: 0,
     signupLink: "https://forms.gle/eVVRMBdtzwjpQCv77",
