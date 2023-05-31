@@ -5,10 +5,10 @@ export const Impact = () => {
   return (
     <div className={styles.container}>
       <p className={styles.impactText}>
-        <span className={styles.impact}>150 </span>kids taught to code
+        <span className={styles.impact}>188 </span>kids taught to code
       </p>
       <p className={styles.impactText}>
-        <span className={styles.impact}>4</span> bootcamps run
+        <span className={styles.impact}>5</span> bootcamps run
       </p>
     </div>
   );
