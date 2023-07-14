@@ -11,18 +11,6 @@ import useWindowDimensions from "../../utils/useWindowDimensions";
 export const Events = () => {
   const { width } = useWindowDimensions();
 
-  const renderEvents = events.sort((a, b) => {
-    if (a.startTime > b.startTime) {
-      return -1;
-    } else {
-      if (a.endTime > b.endTime) {
-        return -1;
-      } else {
-        return 1;
-      }
-    }
-  });
-
   return (
     <div className={styles.eventsPageContainer} id="events">
       <div className={styles.customShapeDividerTop1666447409}>
@@ -70,7 +58,7 @@ export const Events = () => {
             );
           }}
         >
-          {renderEvents.map((event) => {
+          {events.map((event) => {
             return (
               <Event
                 key={event.id}

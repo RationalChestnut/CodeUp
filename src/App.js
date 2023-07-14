@@ -16,7 +16,7 @@ function App() {
       <Events />
       <Team />
       <Impact />
-      <Sponsor />
+      {/* <Sponsor /> */}
       <Contact />
       <Footer />
     </div>

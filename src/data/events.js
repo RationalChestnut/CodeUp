@@ -9,10 +9,24 @@ import p5_1 from "../assets/p5-1/p5_1.png";
 import p5_2 from "../assets/p5-1/p5_2.png";
 import p5_3 from "../assets/p5-1/p5_3.png";
 import p5_4 from "../assets/p5-1/p5_4.png";
-
+import turtle from "../assets/turtle.jpg";
+import turtle2 from "../assets/turtle2.jpg";
 const events = [
   {
     id: 0,
+    title: "Introduction to Website Development",
+    description:
+      "In this 3 hour bootcamp, middle schoolers will learn the basics of HTML & CSS and create their own website!",
+    when: "Saturday, July 22nd from 9:30-12:30am",
+    where: "Pyle Middle School",
+    cost: 0,
+    signupLink: "https://forms.gle/vb6Ud5dUJ5Nj1u4d8",
+    startTime: new Date(2023, 1, 6, 7),
+    endTime: new Date(2023, 10, 6, 16),
+    images: [python_event_0, python_event_1, python_event_2],
+  },
+  {
+    id: 1,
     title: "Learn Python using Turtle",
     description:
       "In this 3 hour bootcamp, middle schoolers will learn the basics of Python with an interactive Python module called Turtle! There will be other activities throughout the event as we know sitting down for three hours can be nearly impossible!",
@@ -22,10 +36,10 @@ const events = [
     signupLink: "https://forms.gle/eVVRMBdtzwjpQCv77",
     startTime: new Date(2023, 2, 4, 13),
     endTime: new Date(2023, 2, 4, 16),
-    images: [event],
+    images: [turtle2, turtle],
   },
   {
-    id: 1,
+    id: 2,
     title: "Learn JavaScript with p5.JS",
     description:
       "In this 3 hour bootcamp, middle schoolers will learn the basics of Python with an interactive Python module called Turtle! There will be other activities throughout the event as we know sitting down for three hours can be nearly impossible!",
@@ -38,7 +52,7 @@ const events = [
     images: [p5_1, p5_2, p5_3, p5_4],
   },
   {
-    id: 2,
+    id: 3,
     title: "Learn JavaScript with Code.org's App Lab",
     description:
       "In this 3 hour bootcamp, middle schoolers will learn the basics of Python with an interactive Python module called Turtle! There will be other activities throughout the event as we know sitting down for three hours can be nearly impossible!",
@@ -51,7 +65,7 @@ const events = [
     images: [codeorg_1],
   },
   {
-    id: 3,
+    id: 4,
     title: "Introduction to Python using Turtle",
     description:
       "In this 3 hour bootcamp, middle schoolers will learn the basics of Python with an interactive Python module called Turtle! There will be other activities throughout the event as we know sitting down for three hours can be nearly impossible!",
