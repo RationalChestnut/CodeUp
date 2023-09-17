@@ -4,7 +4,7 @@ import brian from "../assets/team/brian.jpg";
 import alex from "../assets/team/alex.jpg";
 import russell from "../assets/team/russell.jpg";
 import yixuan from "../assets/team/yixuan.jpeg";
-
+import reed from "../assets/team/reed.jpg";
 export const listOfMembers = [
   {
     name: "Brian Mason",
@@ -36,5 +36,10 @@ export const listOfMembers = [
     name: "Alex Akpinar",
     role: "Instructor",
     image: alex,
+  },
+  {
+    name: "Reed S.",
+    role: "Instructor",
+    image: reed,
   },
 ];
